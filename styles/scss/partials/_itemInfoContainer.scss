@@ -1,6 +1,10 @@
 .item__info{
     margin-top: 2rem;
 
+    @media screen and (min-width: $desktop2){
+     margin: 2rem 4rem 0 0;
+       
+    }
     .item__text{
         .item__title{
             margin-bottom: 1.7rem;

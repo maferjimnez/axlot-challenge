@@ -1,19 +1,39 @@
-.buttons{
-    .button{
-        padding: .7rem 1.7rem;
-        border: none;
-        border-radius: 6px;
-        font-family: $secondary-font;
-    }
+.buttons {
+  margin: 1.5rem 20% 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 6rem;
+  justify-content: space-between;
+  
+  @media screen and (min-width: $tablet){
+    margin: 1.5rem 25% 0;
+    width: 50%;
+  }
 
-    .btn__cart{
-        background-color: $lightBlue;
+  @media screen and (min-width: $desktop){
+    width: 85%;
+    margin: 1.5rem 0 0;
+    flex-direction: row;
+    height: 2.5rem;
+  }
+
+  .button {
+    padding: 0.7rem 1.7rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-family: $secondary-font;
+  }
+
+  .btn__cart {
+    background-color: $lightBlue;
     color: white;
-    }
+  }
 
-    .btn__wishlist{
-        border: 2px solid $blue;
-        background-color: $white;
-        color: $blue;
-    }
+  .btn__wishlist {
+    border: 2px solid $blue;
+    background-color: $white;
+    color: $blue;
+  }
 }

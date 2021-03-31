@@ -1,13 +1,40 @@
 .item__images {
+
+  @media screen and (min-width: $desktop){
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
   .illustrative__image {
     width: 90%;
     margin: 1rem;
+
+    @media screen and (min-width: $tablet)  {
+      width: 75%;
+      margin: 1rem 5rem;
+    }
+
+    @media screen and (min-width: $desktop){
+      width: 100%;
+    margin: 2rem 3rem;
+    }
   }
 
   .sample__images {
     padding: 0 2.5rem;
     display: flex;
     justify-content: space-evenly;
+
+    @media screen and (min-width: $tablet)  {
+    padding: 0 7.5rem;
+    }
+
+    @media screen and (min-width: $desktop){
+      width: 115%;
+      padding: 0 5.5rem;  
+    }
 
     .small__sample {
       height: 2.5rem;

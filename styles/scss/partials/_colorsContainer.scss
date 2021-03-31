@@ -1,10 +1,19 @@
 .item__colors{
+    margin-top: 1.5rem;
     .colors__wrapper{
         width: 57%;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (min-width: $tablet)  {
+            width: 27%;
+        }
+
+        @media screen and (min-width: $desktop){
+        width: 40%;
+
+        }
         .color_hover{
             margin: 0 -7px;
         }

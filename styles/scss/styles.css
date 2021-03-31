@@ -32,9 +32,59 @@ body {
           justify-content: space-between;
 }
 
+@media screen and (min-width: 1024px) {
+  .flex__container {
+    margin: 7rem 13%;
+    padding: 1rem 4rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .flex__container {
+    margin: 5rem 15%;
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .item__images .illustrative__image {
   width: 90%;
   margin: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .item__images .illustrative__image {
+    width: 75%;
+    margin: 1rem 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item__images .illustrative__image {
+    width: 100%;
+    margin: 2rem 3rem;
+  }
 }
 
 .item__images .sample__images {
@@ -47,12 +97,31 @@ body {
           justify-content: space-evenly;
 }
 
+@media screen and (min-width: 768px) {
+  .item__images .sample__images {
+    padding: 0 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item__images .sample__images {
+    width: 115%;
+    padding: 0 5.5rem;
+  }
+}
+
 .item__images .sample__images .small__sample {
   height: 2.5rem;
 }
 
 .item__info {
   margin-top: 2rem;
+}
+
+@media screen and (min-width: 1240px) {
+  .item__info {
+    margin: 2rem 4rem 0 0;
+  }
 }
 
 .item__info .item__text .item__title {
@@ -63,6 +132,10 @@ body {
 .item__info .item__text .item__description .item_paragraph {
   margin-top: 1rem;
   font-size: 14px;
+}
+
+.item__colors {
+  margin-top: 1.5rem;
 }
 
 .item__colors .colors__wrapper {
@@ -78,8 +151,24 @@ body {
           align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .item__colors .colors__wrapper {
+    width: 27%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item__colors .colors__wrapper {
+    width: 40%;
+  }
+}
+
 .item__colors .colors__wrapper .color_hover {
   margin: 0 -7px;
+}
+
+.item__size {
+  margin-top: 1.5rem;
 }
 
 .item__size .size__wrapper {
@@ -95,6 +184,22 @@ body {
           align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .item__size .size__wrapper {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item__size .size__wrapper {
+    width: 65%;
+  }
+}
+
+.item__price {
+  margin-top: 1.5rem;
+}
+
 .item__price .price__text {
   font-size: 26px;
   font-weight: 600;
@@ -106,9 +211,45 @@ body {
   color: #CCCCCC;
 }
 
+.buttons {
+  margin: 1.5rem 20% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  height: 6rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons {
+    margin: 1.5rem 25% 0;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .buttons {
+    width: 85%;
+    margin: 1.5rem 0 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 2.5rem;
+  }
+}
+
 .buttons .button {
-  padding: .7rem 1.7rem;
+  padding: 0.7rem 1.7rem;
   border: none;
+  outline: none;
   border-radius: 6px;
   font-family: "Noto Sans", sans-serif;
 }

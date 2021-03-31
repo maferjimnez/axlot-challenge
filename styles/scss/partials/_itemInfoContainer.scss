@@ -1,0 +1,16 @@
+.item__info{
+    margin-top: 2rem;
+
+    .item__text{
+        .item__title{
+            margin-bottom: 1.7rem;
+            font-weight: lighter;
+        }
+        .item__description{
+            .item_paragraph{
+                margin-top: 1rem;
+                font-size: $small;
+            }
+        }
+    }
+}

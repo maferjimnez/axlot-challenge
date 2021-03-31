@@ -3,4 +3,7 @@
     padding: 1.5rem;
     border-radius: 5px;
     box-shadow: $box-shadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

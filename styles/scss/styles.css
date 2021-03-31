@@ -20,6 +20,16 @@ body {
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 8px #00000029;
           box-shadow: 0px 2px 8px #00000029;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .item__images .illustrative__image {
@@ -94,5 +104,23 @@ body {
   margin-right: 10px;
   text-decoration: line-through;
   color: #CCCCCC;
+}
+
+.buttons .button {
+  padding: .7rem 1.7rem;
+  border: none;
+  border-radius: 6px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.buttons .btn__cart {
+  background-color: #88C9F6;
+  color: white;
+}
+
+.buttons .btn__wishlist {
+  border: 2px solid #5A90BC;
+  background-color: #FFFFFF;
+  color: #5A90BC;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -54,4 +54,21 @@ body {
   margin-top: 1rem;
   font-size: 14px;
 }
+
+.item__colors .colors__wrapper {
+  width: 57%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item__colors .colors__wrapper .color_hover {
+  margin: 0 -7px;
+}
 /*# sourceMappingURL=styles.css.map */

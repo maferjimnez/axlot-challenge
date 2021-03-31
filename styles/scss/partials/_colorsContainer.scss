@@ -1,0 +1,12 @@
+.item__colors{
+    .colors__wrapper{
+        width: 57%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .color_hover{
+            margin: 0 -7px;
+        }
+    }
+}

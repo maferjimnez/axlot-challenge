@@ -1,0 +1,12 @@
+.item__price{
+    .price__text{
+        font-size: 26px;
+    font-weight: 600;
+    
+    .old__price{
+        margin-right: 10px;
+        text-decoration: line-through;
+        color: $gray;
+    }
+    }
+}

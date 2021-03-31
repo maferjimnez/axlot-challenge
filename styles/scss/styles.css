@@ -71,4 +71,28 @@ body {
 .item__colors .colors__wrapper .color_hover {
   margin: 0 -7px;
 }
+
+.item__size .size__wrapper {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item__price .price__text {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.item__price .price__text .old__price {
+  margin-right: 10px;
+  text-decoration: line-through;
+  color: #CCCCCC;
+}
 /*# sourceMappingURL=styles.css.map */

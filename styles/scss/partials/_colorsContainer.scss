@@ -6,11 +6,11 @@
         justify-content: space-between;
         align-items: center;
 
-        @media screen and (min-width: $tablet)  {
+        @media screen and (min-width: $avobe768)  {
             width: 27%;
         }
 
-        @media screen and (min-width: $desktop){
+        @media screen and (min-width: $avobe1024){
         width: 40%;
 
         }

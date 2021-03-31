@@ -7,14 +7,19 @@
     flex-direction: column;
     justify-content: space-between;
     
-    @media screen and (min-width: $desktop){
-        margin: 7rem 13%;
-        padding: 1rem 4rem;
+    @media screen and (min-width: $avobe1024){
+        margin: 7rem 9%;
+        padding: 1rem 2rem 1rem 4rem;
         flex-direction: row-reverse;
     }
 
-    @media screen and (min-width: $desktop2){
+    @media screen and (min-width: $avobe1240){
         margin: 5rem 15%;
         padding: 2rem 4rem;
     }
+
+    @media screen and (min-width: $avobe1600){
+        margin: 5rem 20%;
+    }
+
 }

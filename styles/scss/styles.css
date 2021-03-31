@@ -34,8 +34,8 @@ body {
 
 @media screen and (min-width: 1024px) {
   .flex__container {
-    margin: 7rem 13%;
-    padding: 1rem 4rem;
+    margin: 7rem 9%;
+    padding: 1rem 2rem 1rem 4rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
@@ -50,45 +50,53 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .item__images {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+@media screen and (min-width: 1600px) {
+  .flex__container {
+    margin: 5rem 20%;
   }
 }
 
+.item__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .item__images .illustrative__image {
-  width: 90%;
-  margin: 1rem;
+  width: 18rem;
 }
 
 @media screen and (min-width: 768px) {
   .item__images .illustrative__image {
-    width: 75%;
-    margin: 1rem 5rem;
+    width: 25rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .item__images .illustrative__image {
-    width: 100%;
-    margin: 2rem 3rem;
+    width: 23rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .item__images .illustrative__image {
+    width: 25rem;
   }
 }
 
 .item__images .sample__images {
-  padding: 0 2.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,28 +107,21 @@ body {
 
 @media screen and (min-width: 768px) {
   .item__images .sample__images {
-    padding: 0 7.5rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .item__images .sample__images {
-    width: 115%;
-    padding: 0 5.5rem;
+    width: 70%;
   }
 }
 
 .item__images .sample__images .small__sample {
-  height: 2.5rem;
+  width: 3rem;
 }
 
 .item__info {
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1024px) {
   .item__info {
-    margin: 2rem 4rem 0 0;
+    margin: 2rem 1rem 0 0;
   }
 }
 

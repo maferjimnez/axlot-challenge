@@ -5,13 +5,13 @@
   width: 60%;
   height: 6rem;
   justify-content: space-between;
-  
-  @media screen and (min-width: $avobe768){
+
+  @media screen and (min-width: $avobe768) {
     margin: 1.5rem 25% 0;
     width: 50%;
   }
 
-  @media screen and (min-width: $avobe1024){
+  @media screen and (min-width: $avobe1024) {
     width: 85%;
     margin: 1.5rem 0 0;
     flex-direction: row;

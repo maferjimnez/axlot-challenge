@@ -1,20 +1,19 @@
-.item__info{
-    margin-top: 2rem;
+.item__info {
+  margin-top: 2rem;
 
-    @media screen and (min-width: $avobe1024){
-     margin: 2rem 1rem 0 0;
-       
+  @media screen and (min-width: $avobe1024) {
+    margin: 2rem 1rem 0 0;
+  }
+  .item__text {
+    .item__title {
+      margin-bottom: 1.7rem;
+      font-weight: lighter;
     }
-    .item__text{
-        .item__title{
-            margin-bottom: 1.7rem;
-            font-weight: lighter;
-        }
-        .item__description{
-            .item_paragraph{
-                margin-top: 1rem;
-                font-size: $small;
-            }
-        }
+    .item__description {
+      .item_paragraph {
+        margin-top: 1rem;
+        font-size: $small;
+      }
     }
+  }
 }

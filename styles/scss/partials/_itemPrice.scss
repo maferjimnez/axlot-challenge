@@ -1,13 +1,13 @@
-.item__price{
-    margin-top: 1.5rem;
-    .price__text{
-        font-size: 26px;
+.item__price {
+  margin-top: 1.5rem;
+  .price__text {
+    font-size: 26px;
     font-weight: 600;
-    
-    .old__price{
-        margin-right: 10px;
-        text-decoration: line-through;
-        color: $gray;
+
+    .old__price {
+      margin-right: 10px;
+      text-decoration: line-through;
+      color: $gray;
     }
-    }
+  }
 }

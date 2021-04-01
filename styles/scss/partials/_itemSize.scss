@@ -1,17 +1,17 @@
-.item__size{
-    margin-top: 1.5rem;
-    .size__wrapper{
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+.item__size {
+  margin-top: 1.5rem;
+  .size__wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-        @media screen and (min-width: $avobe768)  {
-        width: 40%;
-        }
-
-        @media screen and (min-width: $avobe1024){
-        width: 65%;
-        }
+    @media screen and (min-width: $avobe768) {
+      width: 40%;
     }
+
+    @media screen and (min-width: $avobe1024) {
+      width: 65%;
+    }
+  }
 }

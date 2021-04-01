@@ -11,6 +11,7 @@ Maquetado de página de producto.
 
 ## Mock-up
 ![image](https://user-images.githubusercontent.com/67376796/113229272-005b3500-926d-11eb-8680-3897cd8f1eec.png)
+<br></br>
 [Adobe XD](https://xd.adobe.com/view/8db9e754-7c2c-4e12-af66-1e895a09e81c-d8ea/)
 
 ## Lauch
